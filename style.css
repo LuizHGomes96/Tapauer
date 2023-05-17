@@ -37,6 +37,10 @@
     width: 50%;
 }
 
+.carousel-item {
+    background-color: #dbdbe1;
+}
+
 .carousel-item > img {
     display: block;
     width: auto;
