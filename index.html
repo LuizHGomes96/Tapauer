@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Components</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="./assets/tapauer1.jpg" height="30px" alt=""> Tapauer Florêncio da Silva</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./index.html">Início</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.instagram.com/tapauerochihuahua/" target="_blank">Sobre</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Contato
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="https://www.instagram.com/tapauerochihuahua/" target="_blank">Instagram</a></li>
+              <li><a class="dropdown-item" href="https://www.instagram.com/tapauerochihuahua/" target="_blank">Instagram</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="https://www.instagram.com/tapauerochihuahua/" target="_blank">Instagram de novo</a></li>
+            </ul>
+          </li>
+
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- CONTEÚDO -->
+  <div class="px-4 pt-5 my-5 text-center border-bottom">
+    <h1 class="display-4 fw-bold text-body-emphasis">Tapauer Florêncio da Silva</h1>
+    <div class="col-lg-6 mx-auto">
+      <p class="lead mb-4">Muito prazer! Meu nome é Tapauer Florêncio da Silva, mas pode me chamar de Tata!! Eu sou um chihuahuinha muito simpático que adora passear no shopping, morder pompons alheios e me animo com beijocas e lambeijos!! ❤️🐾</p>
+      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+        <a href="https://www.instagram.com/tapauerochihuahua/" target="_blank" type="button" class="btn btn-primary btn-lg px-4 me-sm-3">Meu Instagram</a>
+        <a href="https://www.instagram.com/tapauerochihuahua/" target="_blank" type="button" class="btn btn-outline-secondary btn-lg px-4">Meu Instagram de novo</a>
+      </div>
+    </div>
+    <div class="overflow-hidden" style="max-height: 30vh;">
+      <div class="container px-5">
+        <img src="./assets/tapauer-long.jpg" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="700" height="500" loading="lazy">
+      </div>
+    </div>
+  </div>
+
+  <!-- MAIS SOBRE MIM -->
+
+  <div class="container px-4 py-5" id="hanging-icons">
+    <h2 class="pb-2 border-bottom">Mais Sobre Mim</h2>
+    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+      <div class="col d-flex align-items-start">
+        <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+          <img src="./assets/chihuahua.svg" alt="Silhueta de um chihuahua" class="center">
+          <svg class="bi" width="1em" height="1em">
+            <use xlink:href="#toggles2"></use>
+          </svg>
+        </div>
+        <div>
+          <h3 class="fs-2">Peludinho</h3>
+          <p>Sou um chihuahuinha de pelo longo, por isso o papai e a mamãe cuidam muito bem de mim pra que meu pelo fique sempre lindo!</p>
+          <a href="https://www.instagram.com/tapauerochihuahua/" target="_blank" class="btn btn-primary">
+            Meu Instagram
+          </a>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+          <img src="./assets/suit.svg" alt="Terno" class="center">
+          <svg class="bi" width="1em" height="1em">
+            <use xlink:href="#cpu-fill"></use>
+          </svg>
+        </div>
+        <div>
+          <h3 class="fs-2">Elegante</h3>
+          <p>O papai e a mamãe sempre escolhem os melhores looks pra eu ficar bem chique na hora de passear, seja no parque ou no shopping!</p>
+          <a href="https://www.instagram.com/tapauerochihuahua/" target="_blank" class="btn btn-primary">
+            Meu Instagram
+          </a>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+          <img src="./assets/balloons.svg" alt="Balões" class="center">
+          <svg class="bi" width="1em" height="1em">
+            <use xlink:href="#tools"></use>
+          </svg>
+        </div>
+        <div>
+          <h3 class="fs-2">Brincalhão</h3>
+          <p>O papai e a mamãe também me proporcionam a maior diversão! Eu saio pra passear todos os dias e em casa tenho um montão de brinquedos!</p>
+          <a href="https://www.instagram.com/tapauerochihuahua/" target="_blank" class="btn btn-primary">
+            Meu Instagram
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CARROSSEL -->
+
+  <div class="container">
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./assets/baby-crop.jpg" class="d-block " width="500px" alt="Tapauer bebê">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Esse sou eu no dia que conheci o papai e a mamãe</h5>
+            <p>Olha como eu era miudinho!</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/beach-crop.jpg" class="d-block " width="500px" alt="Tapauer na praia">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Essa foi a primeira vez que eu fui à praia</h5>
+            <p>No início eu não gostei muito do barulho que aquela água salgada fazia, mas depois o papai e a mamãe me deram uma água doce que saiu de uma bola verde e eu amei!</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/bee-crop.jpg" class="d-block " width="500px" alt="Tapauer vestido de abelhinha">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Essa é a roupinha nova que o papai e a mamãe compraram pra mim</h5>
+            <p>Não vejo a hora de ir de novo ao shopping pra passear vestido de abelhinha!</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+
+
+  <!-- FOOTER -->
+
+  <div class="container">
+    <footer class="py-3 my-4">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item"><a href="./index.html" class="nav-link px-2 text-body-secondary">Início</a></li>
+        <li class="nav-item"><a href="https://www.instagram.com/tapauerochihuahua/" target="_blank" class="nav-link px-2 text-body-secondary">Sobre</a></li>
+        <li class="nav-item"><a href="https://www.instagram.com/tapauerochihuahua/" target="_blank" class=" nav-link px-2 text-body-secondary">Contato</a></li>
+
+      </ul>
+      <p class="text-center text-body-secondary">© Luiz Henrique, Desenvolvedor WEB</p>
+    </footer>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
