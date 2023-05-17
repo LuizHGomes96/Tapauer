@@ -44,3 +44,13 @@
     margin-left: auto;
     margin-right: auto;
 }
+
+@media (max-width: 780px) {
+    .carousel-item > img {
+        display: block;
+        height: auto;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
